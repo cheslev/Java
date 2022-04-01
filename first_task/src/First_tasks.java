@@ -15,7 +15,7 @@ public class First_tasks {
 
         //Задание #3
         int number = 10500;
-        int result = number / 10;
+        double result = (number / 10);
         System.out.println(result);
 
         //Задание №4
@@ -36,13 +36,13 @@ public class First_tasks {
 
         //Задание №6
         int bnumber = in.nextInt();
-        if(bnumber/2 > 0){
+        if(bnumber%2 > 0){
             System.out.println("Нечетное");
         }
-        else if (bnumber/2 == 0){
+        else if (bnumber%2 == 0){
             System.out.println("Четное");
         }
-        else if(bnumber/2 == 0 && bnumber>100){
+        else if(bnumber%2 == 0 && bnumber>100){
             System.out.println("Выход за пределы диапазона");
         }
 
