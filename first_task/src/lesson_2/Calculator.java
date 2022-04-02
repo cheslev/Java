@@ -7,19 +7,19 @@ public class Calculator
 {
     public static void main(String[] args) {
     System.out.println(sum(10,15));
-    System.out.println(sum(10.5,15.2));
+    System.out.println(sum(10.5f,15.2f));
     System.out.println(sum(102.63,150.61));
 
     System.out.println(mult(10,15));
-    System.out.println(mult(10.5,15.2));
+    System.out.println(mult(10.5f,15.2f));
     System.out.println(mult(102.63,150.61));
 
     System.out.println(division(10,15));
-    System.out.println(division(10.5,15.2));
+    System.out.println(division(10.5f,15.2f));
     System.out.println(division(102.63,150.61));
 
-    System.out.println(subtract(102.63,150.61));
-    System.out.println(subtract(102.63,150.61));
+    System.out.println(subtract(10,15));
+    System.out.println(subtract(10.5f,15.2f));
     System.out.println(subtract(102.63,150.61));
 
     }
