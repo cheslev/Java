@@ -1,17 +1,35 @@
 package lesson_2;
 
 public class Hero {
-    public static void main(String[] args) {
-        Human superman = new Human();
+    private String name;
+    private int hp;
+    private int power;
 
+    public Hero(String name){
+        this.name = name;
     }
 
-    class Human{
-        private String name;
-        private int hp;
-        private int power;
-
-
-
+    public Hero(String name, int hp){
+        this.name = name;
+        this.hp = hp;
     }
+
+    public Hero(String name, int hp, int power){
+        this.name = name;
+        this.hp = hp;
+        this.power = power;
+    }
+
+    String getName(){
+        return name;
+    }
+
+    int getHp(){
+        return hp;
+    }
+
+    int getPower(){
+        return power;
+    }
+
 }
