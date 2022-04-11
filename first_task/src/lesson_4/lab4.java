@@ -67,11 +67,11 @@ public class lab4 {
 
     private static void exer_5(){
         int lengthOfArray = (int) (Math.random()*20);
-        int[] TempArray = new int[lengthOfArray];
-        for (int i = 0; i < TempArray.length; i++) {
-            TempArray[i] = (int) (Math.random()*20);
+        int[] RandArray = new int[lengthOfArray];
+        for (int i = 0; i < RandArray.length; i++) {
+            RandArray[i] = (int) (Math.random()*20);
         }
         System.out.println("Random array:");
-        System.out.println(Arrays.toString(TempArray));
+        System.out.println(Arrays.toString(RandArray));
     }
 }
